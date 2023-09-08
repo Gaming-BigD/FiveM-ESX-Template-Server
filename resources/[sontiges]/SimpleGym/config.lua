@@ -19,7 +19,7 @@ Config.Exersices = {
 }
 
 Config.ExersiceKey = 38 -- E
-Config.ExersiceString = 'Press ~g~E ~s~to do some '
-Config.AbortString = 'Press ~g~E ~s~to abort working out'
+Config.ExersiceString = 'Drücke ~g~E ~s~das Training Beginn'
+Config.AbortString = 'Drücke ~g~E ~s~das Training abbrechen'
 Config.ExersiceDuration = 30 -- in seconds
-Config.FinishString = '~g~Exercise finished! ~s~Take a deep breath before continuing.'
+Config.FinishString = '~g~Übung beendet! ~s~Atmen Sie tief ein, bevor Sie fortfahren.'
