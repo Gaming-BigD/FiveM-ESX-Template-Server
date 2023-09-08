@@ -3,7 +3,7 @@ Config = {}
 Config.SharedObject = "export" -- trigger / export
 
 --Webhook
-Config.Webhook = "https://discord.com/api/webhooks/1148934580250882048/ZRc1GQuFWdC85GribWkqHLcbn9dEuFos8f3c97-0jcq57NYOmO92_IEtELsAy_8p63I7"
+Config.Webhook = "Webhook hier"
 
 
 --Spawnprotection! (Wenn man rausrennt!)
