@@ -25,6 +25,7 @@ Schön das du dir dieses Projekt anguckst, mein Ziel ist es, für jeden den Perf
 - [maps]
 - [phone]
 - [sontiges]
+
 - Füge folgende Dateien in deinen server-data Ordner ein:
 
 - maps.cfg
