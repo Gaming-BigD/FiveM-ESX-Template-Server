@@ -1,0 +1,515 @@
+﻿@import url('https://fonts.cdnfonts.com/css/akrobat');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	-webkit-user-drag: none;
+  	-khtml-user-drag: none;
+  	-moz-user-drag: none;
+  	-o-user-drag: none;
+}
+
+#Loadingscreen {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+
+}
+
+#Background {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+    background: url(img/background.jfif);
+    filter: blur(0.8vh);
+
+}
+
+#Backgroundcolor{
+    position: absolute;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+    background-color: rgba(43, 43, 43, 0.904);
+
+}
+
+#Bgbalken{
+    position: absolute;
+	width: 100vw;
+	height: 10vh;
+	overflow: hidden;
+    background-color: rgba(66, 66, 66, 0.507);
+    filter: drop-shadow(0px 3px 10px rgb(0, 0, 0));
+}
+
+#Logo{
+    position: absolute;
+    width: 7.5833vw;
+    height: 11.5185vh;
+    left: 91.6083vw;
+    top: -1.0vh;
+    overflow: hidden;
+    filter: drop-shadow(0px 2px 2px rgb(0, 0, 0));
+}
+
+#Name{
+    width: 20vw;
+    height: 20vh;
+    top: 3.0185vh;
+    left: 77.6083vw;
+    position: absolute;
+
+    font-weight: bold;
+    font-size: 1.8vw;
+    font-family: Akrobat;
+    color: rgb(128, 128, 128);
+    
+}
+
+#roleplayname{
+    color:rgb(255, 188, 4);
+
+    filter: drop-shadow(0px 3px 10px rgb(255, 196, 0));
+}
+
+#dailynaricht{
+    width: 25vw;
+    height: 20vh;
+    top: 3.8185vh;
+    left: 2.6083vw;
+    position: absolute;
+
+    font-weight: bold;
+    font-size: 1.2vw;
+    font-family: Akrobat;
+    color: rgb(128, 128, 128);
+}
+
+#icon1{
+    width: 25vw;
+    height: 20vh;
+    top: 4.2185vh;
+    left: 1.0083vw;
+    position: absolute;
+    font-size: 1.3vw;
+
+    color: rgb(128, 128, 128);
+}
+
+#Narichttitle{
+    color:rgb(255, 188, 4);
+
+    filter: drop-shadow(0px 3px 10px rgb(255, 196, 0));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Fenster1led{
+    width: 21vw;
+    height: 50vh;
+    top: 25.2185vh;
+    left: 5.0083vw;
+
+    border-radius: 0.4vw;
+    outline: 0.1vw;
+    border-color: yellow;
+    border-width: 0.15vw;
+    border-style: solid;
+
+    position: absolute;    
+    filter: drop-shadow(0px 3px 10px rgb(255, 196, 0));
+}
+
+#Fenster1{
+    width: 21vw;
+    height: 50vh;
+    top: 25.2185vh;
+    left: 5.0083vw;
+
+    border-radius: 0.4vw;
+    outline: 0.1vw;
+    border-color: yellow;
+    border-width: 0.15vw;
+    border-style: solid;
+
+    position: absolute;
+}
+#balken1{
+    background-color: yellow;
+    filter: drop-shadow(0px 3px 10px rgb(255, 196, 0));
+    width: 0.2vw;
+    height: 5vh;
+
+    border-radius: 1.2vw;
+    top: 3vh;
+    left: 3vw;
+
+    position: absolute;
+}
+
+#Blitzschnell{
+    width: 25vw;
+    height: 20vh;
+    top: 2.0185vh;
+    left: 3.6083vw;
+    position: absolute;
+
+    font-weight: bold;
+    font-size: 2vw;
+    font-family: Akrobat;
+    color: rgb(92, 92, 92);
+}
+#Fensteruntetitle1{
+    width: 25vw;
+    height: 20vh;
+    top: 5.2185vh;
+    left: 3.6083vw;
+    position: absolute;
+
+
+    font-size: 1.5vw;
+    font-family: Akrobat;
+    color: yellow;
+}
+#Discordicon{
+    width: 25vw;
+    height: 20vh;
+    top: 11.0185vh;
+    left: 3.6083vw;
+    position: absolute;
+
+    font-weight: bold;
+    font-size: 2vw;
+    font-family: Akrobat;
+    color: rgb(92, 92, 92);
+}
+#Teamspeakicon{
+    width: 25vw;
+    height: 20vh;
+    top: 17.0185vh;
+    left: 3.6083vw;
+    position: absolute;
+
+    font-weight: bold;
+    font-size: 2vw;
+    font-family: Akrobat;
+    color: rgb(92, 92, 92);
+}
+#Discordlink{
+    width: 25vw;
+    height: 20vh;
+    top: 12.0185vh;
+    left: 6.6083vw;
+    position: absolute;
+
+    font-size: 1vw;
+    font-family: Akrobat;
+    color: rgb(251, 255, 0);
+}
+#Teamspeaklink{
+    width: 25vw;
+    height: 20vh;
+    top: 18.0185vh;
+    left: 6.6083vw;
+    position: absolute;
+
+    font-size: 1vw;
+    font-family: Akrobat;
+    color: rgb(251, 255, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Fenster2led{
+    width: 21vw;
+    height: 50vh;
+    top: 25.2185vh;
+    left: 28.0083vw;
+
+    border-radius: 0.4vw;
+    outline: 0.1vw;
+    border-color: rgb(255, 0, 0);
+    border-width: 0.15vw;
+    border-style: solid;
+    filter: drop-shadow(0px 3px 10px rgb(255, 0, 0));
+
+    position: absolute;
+}
+#Fenster2{
+    width: 21vw;
+    height: 50vh;
+    top: 25.2185vh;
+    left: 28.0083vw;
+
+    border-radius: 0.4vw;
+    outline: 0.1vw;
+    border-color: rgb(255, 0, 0);
+    border-width: 0.15vw;
+    border-style: solid;
+
+    position: absolute;
+}
+#balken2{
+    background-color: rgb(255, 0, 0);
+    filter: drop-shadow(0px 3px 10px rgb(255, 0, 0));
+    width: 0.2vw;
+    height: 5vh;
+
+    border-radius: 1.2vw;
+    top: 3vh;
+    left: 3vw;
+
+    position: absolute;
+}
+
+#Fensteruntetitle2{
+    width: 25vw;
+    height: 20vh;
+    top: 5.2185vh;
+    left: 3.6083vw;
+    position: absolute;
+
+
+    font-size: 1.5vw;
+    font-family: Akrobat;
+    color: rgb(255, 0, 0);
+}
+#ShopIcon{
+    width: 25vw;
+    height: 20vh;
+    top: 11.0185vh;
+    left: 3.6083vw;
+    position: absolute;
+
+    font-weight: bold;
+    font-size: 2vw;
+    font-family: Akrobat;
+    color: rgb(92, 92, 92);
+}
+#Shoplink{
+    width: 25vw;
+    height: 20vh;
+    top: 12.0185vh;
+    left: 6.6083vw;
+    position: absolute;
+
+    font-size: 1vw;
+    font-family: Akrobat;
+    color: rgb(255, 0, 0);
+}
+
+#Shopnewstext
+{
+    width: 20vw;
+    height: 25vh;
+    top: 17.0185vh;
+    left: 0.6083vw;
+    position: absolute;
+
+
+    font-size: 1vw;
+    font-family: Akrobat;
+
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+
+
+
+
+
+
+
+#Fenster3led{
+    width: 44vw;
+    height: 50vh;
+    top: 25.2185vh;
+    left: 51.0083vw;
+
+    border-radius: 0.4vw;
+    outline: 0.1vw;
+    border-color: rgb(60, 255, 0);
+    border-width: 0.15vw;
+    border-style: solid;
+    filter: drop-shadow(0px 5px 15px rgb(60, 255, 0));
+
+    position: absolute;
+}
+#Fenster3{
+    width: 44vw;
+    height: 50vh;
+    top: 25.2185vh;
+    left: 51.0083vw;
+
+    border-radius: 0.4vw;
+    outline: 0.1vw;
+    border-color: rgb(60, 255, 0);
+    border-width: 0.15vw;
+    border-style: solid;
+
+    position: absolute;
+}
+
+#balken3{
+    background-color: rgb(60, 255, 0);
+    filter: drop-shadow(0px 3px 10px rgb(60, 255, 0));
+    width: 0.2vw;
+    height: 5vh;
+
+    border-radius: 1.2vw;
+    top: 3vh;
+    left: 3vw;
+
+    position: absolute;
+}
+
+#Fensteruntetitle3{
+    width: 25vw;
+    height: 20vh;
+    top: 5.2185vh;
+    left: 3.6083vw;
+    position: absolute;
+
+
+    font-size: 1.5vw;
+    font-family: Akrobat;
+    color: rgb(9, 255, 0);
+}
+#Newsicon{
+    width: 25vw;
+    height: 20vh;
+    top: 21.0185vh;
+    left: 0.9083vw;
+    position: absolute;
+
+    font-weight: bold;
+    font-size: 2.5vw;
+    font-family: Akrobat;
+    color: rgb(92, 92, 92);
+}
+#Updatetitle{
+    width: 25vw;
+    height: 18vh;
+    top: 21.0185vh;
+    left: 3.5083vw;
+    position: absolute;
+
+
+    font-size: 1.5vw;
+    font-family: Akrobat;
+    color: rgb(99, 99, 99);
+}
+#Titletime{
+    color: rgb(20, 121, 0);
+    font-size: 1.3vw;
+}
+
+#Servernewstext{
+    width: 30vw;
+    height: 25vh;
+    top: 28.0185vh;
+    left: 1.3083vw;
+    position: absolute;
+
+    font-size: 1vw;
+    font-family: Akrobat;
+
+    text-align: left;
+    color: rgb(60, 255, 0);
+}
+
+
+
+
+
+#Ron{
+    position: absolute;
+    width: 13.5833vw;
+    height: 39.5185vh;
+    left: 81.2083vw;
+    top: 35.0vh;
+    filter: drop-shadow(0px 3px 10px rgb(60, 255, 0));
+}
+#Money{
+    position: absolute;
+    width: 20.5833vw;
+    height: 21.5185vh;
+    left: 28.2083vw;
+    top: 53.0vh;
+    filter: drop-shadow(0px 3px 10px rgb(255, 0, 0));
+}
+#jet{
+    position: absolute;
+    width: 26.5833vw;
+    height: 27.5185vh;
+    left: 1.2083vw;
+    top: 48.0vh;
+    filter: drop-shadow(0px 3px 10px rgb(255, 251, 0));
+}
+
+
+
+
+
+
+
+
+
+
+
+#Loading{
+    width: 40vw;
+    height: 10vh;
+    top: 85.0185vh;
+    left: 35.0vw;
+    position: absolute;
+
+    font-weight: bold;
+    font-size: 2vw;
+    font-family: Akrobat;
+    color: rgb(161, 161, 161);
+}
+
+#Serverloading{
+
+    color: rgb(94, 94, 94);
+}

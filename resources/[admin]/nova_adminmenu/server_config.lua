@@ -1,0 +1,35 @@
+ConfigServer = {}
+
+ConfigServer.Token = "MTExMDg4NjQ0MTg1NDE4MTQxNw.GI0h7N.mCHaagKjQUQnnV-2qxHnkqri6KE3xae6UWLfmM"
+
+ConfigServer.Webhook = {
+    ban = "https://discord.com/api/webhooks/1146709273661947944/LT15pJvFRgY_-cJNdLYv0-YCDvQOGQ_bZ2PGqpBAsc8eMmY297AKobJroOQeqvuY9ICR",
+    kick = "https://discord.com/api/webhooks/1146709534430216192/gd02HVf5ZeSf_nk1xdntUrmCuXnOybxXomsfoBlihgPqz0virK_uZjxn4vWCfO1UPvDf",
+    adminjail = "https://discord.com/api/webhooks/1146710203631403008/Y_EHCAgx5cK__B6R7bophSkws0ZHb0gkDFJo5SWJHRt5WL7PoRy6uIvWykVQVl_WXor5",
+    warn = "https://discord.com/api/webhooks/1146711424228405248/oatcSbXc6vFmGDrYnsckYCEEmivjAGui-86WJ4YW_5L5lVIG5SI9pdjgEVwfgGNaZrWd",
+    skinmenu = "https://discord.com/api/webhooks/1146711525902536714/1VN6n_pzEpAtVT9KTVmK5uCN1F9VGIBipV9CirsBE_k-a0aC3hbhPhFPmQB0-zj_gxbl",
+    spectate = "https://discord.com/api/webhooks/1146711647285682246/VJ-E6YAebq1dzLypInhASUdbZQfYvshBqk1TqeAG9WVoEbrSGB3VNlzUxvEeDX-GmPVU",
+    revive = "https://discord.com/api/webhooks/1146711788348510328/2YC-V4jxUtKyj16LaJhGK9f97ksMrcRwypfZs7u8EzTNKDb3M1-uvy9QqnLr7cTHLakk",
+    heal = "https://discord.com/api/webhooks/1146711889758404618/ip0_JQSGMBIN_hMkEv3c3iOFj-ANXGEk3Uc612xJo4V0-aRHxsx3_Y56DQLdJCzsPUTK",
+    kill = "https://discord.com/api/webhooks/1146711973803851806/ZXdGRWwXda7ri2z-bzOHvRXqCtXU4Tl50Txq6AwjgImJeMfDZnx_lXDsJhkeo6JKyewe",
+    wipe = "https://discord.com/api/webhooks/1146712143320846426/GBaFe2QamgGcjTKlGJxJkd1ze5IULZJKQpKXmsKP7WLRVFCx23k5EvRrrHreqInG4D2R",
+    goto1 = "https://discord.com/api/webhooks/1146712231631917106/4c6idYOc0tv5IQPXij1yRf2lQb-Th7lPjX82vau1DIqtAkZmBsaAEAq_KldFCuXS5CNJ",
+    bring = "https://discord.com/api/webhooks/1146712308626771998/N4iuZpmbxOg0uhe_I3kF1O2vmuT2NF5pfElpJPs8kEXJUW-HoxtN16zmyjKJ3Kq32Nso",
+    giveitem = "",
+    givemoney = "",
+    setjob = "",
+    clearinventory = "",
+    giveadmin = "",
+    clearped = "",
+    sendmessage = "",
+    freeze = "",
+    noclip = "",
+    invisibilita = "",
+    godmode = "",
+    nomiplayer = "",
+    annuncio = "",
+    reviveall = "",
+    givemoneyall = "",
+    repairvehicle = "",
+    cleararea = "",
+}

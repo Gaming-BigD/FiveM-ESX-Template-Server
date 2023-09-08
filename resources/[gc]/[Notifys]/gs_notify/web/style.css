@@ -1,0 +1,177 @@
+@import url('https://fonts.cdnfonts.com/css/akrobat');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	-webkit-user-drag: none;
+  	-khtml-user-drag: none;
+  	-moz-user-drag: none;
+  	-o-user-drag: none;
+}
+
+#container {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	z-index: 1; 
+
+	top: 2vw;
+
+}
+
+#notification {
+	position: absolute;
+	width: 46.0938vw;
+	height: 27.8704vh;
+	left: 26.9792vw;
+	top: 36.1111vh;
+	z-index: 1; 
+	overflow: visible;
+}
+
+#background {
+	fill: rgba(0, 0, 0, 0.87);
+	z-index: 1; 
+}
+
+.background {
+	filter: drop-shadow(0px 50px 99px rgb(255, 255, 255));
+	position: absolute;
+	overflow: visible;
+	width: 61.5625vw;
+	height: 55.3704vh;
+	z-index: 1; 
+	left: 0vw;
+	top: 0vh;
+}
+
+#titel {
+	left: 28.4583vw;
+	top: 78.3148vh;
+	position: absolute;
+	overflow: visible;
+	width: 43.2292vw;
+	height: 5.6852vh;
+	line-height: 1.5625vw;
+	margin-top: -0.1302vw;
+	text-align: center;
+	font-family: Akrobat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 3.3021vw;
+	color: rgb(14, 170, 17);
+	text-transform: uppercase;
+	filter: drop-shadow(0px 0px 10px rgb(0, 124, 76));
+
+	transform: skew(5deg);
+	transform: skew(-2deg, -2deg);
+	
+	z-index: 100; 
+}
+
+#text {
+	left: 1.4583vw;
+	top: 50.3148vh;
+	position: absolute;
+	overflow: visible;
+	width: 43.2292vw;
+	height: -7.6852vh;
+	line-height: 1.5625vw;
+	margin-top: -0.1302vw;
+	text-align: center;
+	font-family: Akrobat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.3021vw;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+
+	transform: skew(5deg);
+	transform: skew(-2deg, -2deg);
+	transition: 0.35s;
+	z-index: 100; 
+}
+
+.ladebalken {
+	width: 25vw;
+	left: 11.0vw;
+	top: 47.5vh;
+	height: 10.6852vh;
+	line-height: 1.5625vw;
+	margin: -0.15;
+	margin-top: -0.1302vw;
+	position: absolute;
+}
+
+.ladebalken .loading {
+	position: relative;
+	width: 100%;
+	height: 10px;
+	border-radius: 10px;
+	animation: turn 6s linear 1.75s infinite;
+	z-index: 100; 
+}
+
+.ladebalken .loading:before {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 100%;
+	background-color: rgb(201, 201, 201);
+	box-shadow: 10px 0px 15px 0px rgb(45, 45, 45);
+	animation: load 7s linear infinite;
+
+	transform: skew(5deg);
+	transform: skew(-2deg, -2deg);
+	z-index: 100; 
+
+}
+
+.ladebalken .loading_2 {
+	position: absolute;
+	width: 100%;
+	top: 10px;
+	color: green;
+	font-size: 22px;
+	text-align: center;
+	animation: bounce 5s linear infinite;
+	z-index: 100; 
+}
+
+@keyframes load {
+	0% {
+		width: 0%;
+	}
+
+	87.5% {
+		width: 100%;
+	}
+}
+
+@keyframes turn {
+	0% {
+		transform: rotateY(0deg);
+	}
+
+}
+
+@keyframes bounce {
+  
+	0%,
+	100% {
+		top: 10px;
+	}
+
+	12.5% {
+		top: 30px;
+	}
+}

@@ -1,0 +1,12 @@
+D:\Desktop\saltychat\SaltyServer\bin\Debug\netstandard2.0\SaltyServer.net.deps.json
+D:\Desktop\saltychat\SaltyServer\bin\Debug\netstandard2.0\SaltyServer.net.dll
+D:\Desktop\saltychat\SaltyServer\bin\Debug\netstandard2.0\SaltyServer.net.pdb
+D:\Desktop\saltychat\SaltyServer\bin\Debug\netstandard2.0\Newtonsoft.Json.dll
+D:\Desktop\saltychat\SaltyServer\obj\Debug\netstandard2.0\SaltyServer.csproj.AssemblyReference.cache
+D:\Desktop\saltychat\SaltyServer\obj\Debug\netstandard2.0\SaltyServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\saltychat\SaltyServer\obj\Debug\netstandard2.0\SaltyServer.AssemblyInfoInputs.cache
+D:\Desktop\saltychat\SaltyServer\obj\Debug\netstandard2.0\SaltyServer.AssemblyInfo.cs
+D:\Desktop\saltychat\SaltyServer\obj\Debug\netstandard2.0\SaltyServer.csproj.CoreCompileInputs.cache
+D:\Desktop\saltychat\SaltyServer\obj\Debug\netstandard2.0\SaltyServer.csproj.CopyComplete
+D:\Desktop\saltychat\SaltyServer\obj\Debug\netstandard2.0\SaltyServer.net.dll
+D:\Desktop\saltychat\SaltyServer\obj\Debug\netstandard2.0\SaltyServer.net.pdb

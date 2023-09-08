@@ -1,0 +1,116 @@
+@import url('https://fonts.cdnfonts.com/css/akrobat');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	-webkit-user-drag: none;
+  	-khtml-user-drag: none;
+  	-moz-user-drag: none;
+  	-o-user-drag: none;
+	
+}
+
+#container {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+
+
+}
+
+#notification {
+	position: absolute;
+	width: 50.0938vw;
+	height: 27.8704vh;
+	left: 46.9792vw;
+	top: 23.1111vh;
+	overflow: visible;
+
+}
+
+#background {
+	fill: rgba(116, 116, 116, 0);
+
+
+
+	
+}
+
+
+
+
+.background {
+	position: absolute;
+	overflow: visible;
+	width: 30.5625vw;
+	height: 13.3704vh;
+	left: -14vw;
+	top: -20vh;
+	background: linear-gradient(to left, transparent 1.5%, rgba(35, 71, 34, 0.567) 50%);
+
+	border-radius: 1em;
+    overflow: hidden;
+	perspective: 1px;
+
+
+}
+
+#Announce {
+	left: -23.4583vw;
+	top: -18.1148vh;
+	position: absolute;
+	overflow: visible;
+	width: 43.2292vw;
+	height: 12.6852vh;
+	line-height: 1.5625vw;
+	margin-top: -0.1302vw;
+	text-align: center;
+	font-family: Akrobat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 2.3021vw;
+	color: rgba(55, 196, 8,1);
+	text-transform: uppercase;
+	filter: drop-shadow(0px 0px 10px rgb(6, 6, 6));
+
+}
+
+#text {
+	left: -10.8583vw;
+	top: -13.5148vh;
+	position: absolute;
+	overflow: visible;
+	width: 20.2292vw;
+	height: 12.6852vh;
+	line-height: 1.5625vw;
+	margin-top: -0.1302vw;
+	text-align: center;
+	font-family: Akrobat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.3021vw;
+	color: rgba(255,255,255,1);
+	text-transform: uppercase;
+	filter: drop-shadow(0px 0px 10px rgba(18, 97, 2, 0.797));
+
+}
+
+.kreis{
+	position: absolute;
+	border-radius: 50%;
+	background: rgba(55, 196, 8,1);
+	width: 0.7vw;
+	height: 1.0vh;
+	left: -10.0vw;
+	top: -17.5148vh;
+	filter: drop-shadow(0px 0px 10px rgb(39, 39, 39));
+
+}

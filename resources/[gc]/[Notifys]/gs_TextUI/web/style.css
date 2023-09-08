@@ -1,0 +1,190 @@
+@import url('https://fonts.cdnfonts.com/css/akrobat');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	-webkit-user-drag: none;
+  	-khtml-user-drag: none;
+  	-moz-user-drag: none;
+  	-o-user-drag: none;
+	
+}
+
+#container {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+
+
+}
+
+#notification {
+	position: absolute;
+	width: 50.0938vw;
+	height: 27.8704vh;
+	left: 46.9792vw;
+	top: 23.1111vh;
+	overflow: visible;
+
+}
+
+#background {
+	fill: rgba(116, 116, 116, 0);
+
+
+
+	
+}
+
+
+.background {
+	position: absolute;
+	overflow: visible;
+	width: 30.5625vw;
+	height: 30.3704vh;
+	left: -14vw;
+	top: 57vh;
+	background: linear-gradient(to bottom, transparent 0.5%, rgb(255, 238, 0) 10%);
+
+	border-radius: 20em;
+    overflow: hidden;
+	perspective: 1px;
+	filter: blur(8vw);
+
+
+}
+
+
+.lilabackground {
+	position: absolute;
+	overflow: visible;
+	width: 30.5625vw;
+	height: 30.3704vh;
+	left: -14vw;
+	top: 57vh;
+	background: linear-gradient(to bottom, transparent 0.5%, rgb(205, 7, 255) 10%);
+
+	border-radius: 20em;
+    overflow: hidden;
+	perspective: 1px;
+	filter: blur(8vw);
+
+
+}
+
+.blaubackground {
+	position: absolute;
+	overflow: visible;
+	width: 30.5625vw;
+	height: 30.3704vh;
+	left: -14vw;
+	top: 57vh;
+	background: linear-gradient(to bottom, transparent 0.5%, rgb(12, 125, 255) 10%);
+
+	border-radius: 20em;
+    overflow: hidden;
+	perspective: 1px;
+	filter: blur(8vw);
+
+
+}
+
+
+.rotbackground {
+	position: absolute;
+	overflow: visible;
+	width: 30.5625vw;
+	height: 30.3704vh;
+	left: -14vw;
+	top: 57vh;
+	background: linear-gradient(to bottom, transparent 0.5%, rgb(194, 0, 0) 10%);
+
+	border-radius: 20em;
+    overflow: hidden;
+	perspective: 1px;
+	filter: blur(8vw);
+
+
+}
+
+.grünbackground {
+	position: absolute;
+	overflow: visible;
+	width: 30.5625vw;
+	height: 30.3704vh;
+	left: -14vw;
+	top: 57vh;
+	background: linear-gradient(to bottom, transparent 0.5%, rgb(0, 194, 32) 10%);
+
+	border-radius: 20em;
+    overflow: hidden;
+	perspective: 1px;
+	filter: blur(8vw);
+
+
+}
+
+
+#Viereck
+{
+	left: -1.1583vw;
+	top: 58.9148vh;
+	position: absolute;
+	width: 43.2292vw;
+	height: 12.6852vh;
+	font-size: 5.3021vw;
+	text-shadow: 0 0 7px rgba(63, 63, 63, 0.767);
+	color: rgb(94, 255, 0);
+	filter: drop-shadow(0px 5px 10px rgb(0, 0, 0));
+}
+
+
+#E {
+	left: -20.4583vw;
+	top: 62.1148vh;
+	position: absolute;
+	overflow: visible;
+	width: 43.2292vw;
+	height: 12.6852vh;
+	line-height: 1.5625vw;
+	margin-top: -0.1302vw;
+	text-align: center;
+	font-family: Akrobat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 3.3021vw;
+	text-shadow: 0 0 7px rgba(108, 255, 9, 0.767);
+	color: rgb(0, 255, 13);
+	text-transform: uppercase;
+	filter: drop-shadow(0px 5px 10px rgb(0, 0, 0));
+
+}
+
+#text {
+	left: -20.4583vw;
+	top: 70.1148vh;
+	position: absolute;
+	overflow: visible;
+	width: 43.2292vw;
+	height: 12.6852vh;
+	line-height: 1.5625vw;
+	margin-top: -0.1302vw;
+	text-align: center;
+	font-family: Akrobat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 2.3021vw;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+
+
+}
