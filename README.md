@@ -41,4 +41,4 @@ Schön das du dir dieses Projekt anguckst, mein Ziel ist es, für jeden den Perf
 - Trage deinen steam_webApiKey in die server.cfg ein
 - 
 - siehe Zeile 74
-- Importiere die server.sql aus dem [SQL] Ordner per phpmyadmin in deine Datenbank
+- Importiere die ESXLegacy_FAF92E aus dem [SQL] Ordner per phpmyadmin in deine Datenbank
