@@ -5,6 +5,5 @@
 - 📫 So erreichen Sie mich ...
 
 <!---
-Gaming-BigD/Gaming-BigD ist ein ✨ besonderes ✨ Repository, da seine „README.md“ (diese Datei) in Ihrem GitHub-Profil erscheint.
-Sie können auf den Link „Vorschau“ klicken, um sich Ihre Änderungen anzusehen.
+Was ihr tun muüsst ist eucht das [cfx-default] downloaden
 --->
