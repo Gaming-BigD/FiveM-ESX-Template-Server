@@ -1,4 +1,4 @@
-# Template Server ESX Legacy Free - UNBEDINGT LESEN
+# Template Server ESX Legacy FREE - UNBEDINGT LESEN
 
 Schön das du dir dieses Projekt anguckst, mein Ziel ist es, für jeden den Perfekten Start in die Welt von FiveM zu bieten. Hier ist ein angepasster FiveM ESX Legacy Server.
 
