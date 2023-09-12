@@ -1,10 +1,9 @@
-# Template Server ESX Legacy by ACHIM! - UNBEDINGT LESEN
+# Template Server ESX Legacy! - UNBEDINGT LESEN
 
-![FiveM template Server ](https://github.com/Achim-Sommer/FiveM-ESX-Template-Server/assets/39227403/cc02e74a-6393-4694-a487-7c1ad10f734b)
+![FiveM template Server ]()
 
 Schön das du dir dieses Projekt anguckst, mein Ziel ist es, für jeden den Perfekten Start in die Welt von FiveM zu bieten. Hier ist ein angepasster FiveM ESX Legacy Server. 
-- Mehr Infos: https://forum.achimsommer.com/home/article/8-fivem-template-server/
-- https://www.youtube.com/watch?v=lyuVfLkRQRI
+- Mehr Infos: Auf unseren Discord https://discord.gg/JvnmpZmJ8s
 # Entwicklungszeit aktuell:
 
 [![wakatime](https://wakatime.com/badge/user/8179ac82-4f81-4e8c-8976-2e51e14e1a46/project/35040979-3cf9-4010-8904-5ec10b7ea1d4.svg)](https://wakatime.com/badge/user/8179ac82-4f81-4e8c-8976-2e51e14e1a46/project/35040979-3cf9-4010-8904-5ec10b7ea1d4)
@@ -15,62 +14,23 @@ Schön das du dir dieses Projekt anguckst, mein Ziel ist es, für jeden den Perf
 # FiveM Server mieten oder Lifetime kaufen!
 
 - https://zap-hosting.com/ServerFiveM
-- 20% Rabatt Code: GermanGaming
-
-# Zusatzinhalte:
-
-- Support + Monatliche Unterstüzung des Projektes: https://shop.achimsommer.com/package/5777793 
-- Support: https://shop.achimsommer.com/package/5708271
-- Support & kleines Addon Pack: https://shop.achimsommer.com/package/5708276 
-- Support & großes Addon Pack: https://shop.achimsommer.com
 
 # Testserver:
 
 - Hier eine IP zu einem Test Server
-- 95.156.227.133:30100
-- Testserver läuft mit der Version Release 1.4.0
-- Testserver von Zap-Hosting: https://zap-hosting.com/ServerFiveM
-
-  
-# Social-Media
-
-- FiveM Forum: https://forum.achimsommer.com
-- Website: https://achimsommer.com
-- Discord: https://discord.gg/mZWNwyvmP2 (Kein Support / Support Only = https://shop.achimsommer.com/package/5708271 )
+- folgt
+- Testserver läuft mit der Version Release folgt
 
 
 # Projekt unterstüzen:
 
-- Mitgliedschaft: https://www.youtube.com/@achimsommer/join
-- PayPal: sommerachim@hotmail.de
-- Shop: https://shop.achimsommer.com
+- PayPal: tismerd15@gmail.com
 
 -----------------------------------------
 
 # Versionen
 
-- Alpha 0.5.0 - Release: 28.06.2020
-- Alpha 0.6.5 - Release: 30.06.2020
-- Alpha 0.9.0 - Release: 05.07.2020
-- Beta 1.0.0 - Release: 13.07.2020
-- Beta 1.2.0 - Release: 23.07.2020
-- Beta 1.4.0 - Release: 01.08.2020
-- Beta 1.6.0 - Release: 23.08.2020
-- Beta 1.8.0 - Release: 13.10.2020
-- Beta 2.0.0 - Release: 30.01.2021
-- Beta 3.0.0 - Release: 16.10.2021
-- Beta 3.1.0 - Release: 18.12.2021
-- Beta 3.2.0 - Release: 03.07.2021
-- Beta 4.0.0 - Release: 25.06.2022
-- Legacy Beta 1.0.0 - Release: 07.05.2023
-- Legacy Beta 2.0.0 - Release: 15.05.2023
-- Legacy Beta 3.0.0 - Release: 08.06.2023
-- Legacy Beta 4.0.0 - Release: 13.06.2023
-- Release 1.0.0 - Release: 17.06.2023
-- Release 1.1.0 - Release: 30.06.2023
-- Release 1.2.0 - Release: 03.07.2023
-- Release 1.3.0 - Release: 07.07.2023
-- Release 1.4.0 - Release: 09.07.2023
+- Alpha 0.1 - Release: 1.09.2023
 
 # Installationsanleitung:
 ## Die Anleitung ist für einen neuen FiveM Server
@@ -87,22 +47,24 @@ Schön das du dir dieses Projekt anguckst, mein Ziel ist es, für jeden den Perf
 
 1.
 Füge folgende Ordner in deinen resources Ordner ein:
-- [core]
-- [esxaddon]
-- [esxjobs]
-- [extras]
+- [admin]
+- [cfx-default]
+- [datenbank]
+- [esx]
+- [esx_addons]
+- [gc]
+- [job] 
 - [maps]
-- [mskscripts]
-- [ox]
 - [phone]
-- [templateserveraddon]
+- [sontiges]
 
 2.
 Füge folgende Dateien in deinen server-data Ordner ein:
-- inventory.cfg
 - maps.cfg
+- resources.cfg
 - phone.cfg
 - server.cfg
+- Trage deine MySql Datenbank Verbidung in die server.cfg
 
 3.
 Trage deine MySql Datenbank Verbidung in die server.cfg
@@ -115,13 +77,6 @@ Trage deine SteamID64(hex) in die server.cfg um Admin zu werden:
 5.
 Trage deinen steam_webApiKey in die server.cfg ein
 - siehe Zeile 74
-- https://forum.achimsommer.com/home/lexicon/entry/13-fivem-server-steam-api-key-fivem-steam-wird-nicht-erkann/
 
 6.
-Importiere die server.sql aus dem [SQL] Ordner per phpmyadmin in deine Datenbank
-
-7.
-Hol dir das Support Paket oder das Support Paket mit Addon wenn du möchtest, um das Projekt zu unterstüzen.
-- https://shop.achimsommer.com/package/5777793 
-- https://shop.achimsommer.com/package/5708271
-- https://shop.achimsommer.com/package/5708276 
+Importiere die ESXLegacy_FAF92E-sql aus dem [SQL] Ordner per phpmyadmin in deine Datenbank
