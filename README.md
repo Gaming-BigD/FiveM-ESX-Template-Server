@@ -42,5 +42,7 @@ Schön das du dir dieses Projekt anguckst, mein Ziel ist es, für jeden den Perf
 - siehe Zeile 74
 - Importiere die ESXLegacy_FAF92E aus dem [SQL] Ordner per phpmyadmin in deine Datenbank
 
-Entwicklungszeit aktuell:
+
+**Entwicklungszeit aktuell:**
+
   <a href="https://wakatime.com/badge/github/Gaming-BigD/FiveM-ESX-Template-Server"><img src="https://wakatime.com/badge/github/Gaming-BigD/FiveM-ESX-Template-Server.svg" alt="wakatime"></a>
