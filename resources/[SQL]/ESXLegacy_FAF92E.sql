@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Erstellungszeit: 08. Sep 2023 um 11:55
--- Server-Version: 10.11.3-MariaDB-1
--- PHP-Version: 8.2.10
+-- Erstellungszeit: 22. Okt 2023 um 12:23
+-- Server-Version: 10.11.4-MariaDB-1~deb12u1
+-- PHP-Version: 8.2.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -158,6 +158,17 @@ CREATE TABLE `datastore_data` (
 -- --------------------------------------------------------
 
 --
+-- Tabellenstruktur für Tabelle `dn_notify`
+--
+
+CREATE TABLE `dn_notify` (
+  `identifier` varchar(65) DEFAULT NULL,
+  `position` longtext DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Tabellenstruktur für Tabelle `fine_types`
 --
 
@@ -207,11 +218,11 @@ CREATE TABLE `items` (
 INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`) VALUES
 ('bandage', 'Bandage', 1, 0, 1),
 ('icetea', 'Ice Tea', 1, 0, 1),
+('jewels', 'Jewels', 1, 0, 1),
 ('medikit', 'Medikit', 1, 0, 1),
 ('metal', 'Metall', 1, 0, 1),
 ('phone', 'red_phone', 1, 0, 1),
 ('rope', 'Seil', 1, 0, 1),
-('jewels', 'Jewels', 1, 0, 1),
 ('sandwich', 'Sandwich', 1, 0, 1),
 ('shovel', 'Schaufel', 1, 0, 1),
 ('wood', 'Holz', 1, 0, 1);
@@ -537,6 +548,12 @@ ALTER TABLE `datastore`
 --
 ALTER TABLE `datastore_data`
   ADD PRIMARY KEY (`id`);
+
+--
+-- Indizes für die Tabelle `dn_notify`
+--
+ALTER TABLE `dn_notify`
+  ADD UNIQUE KEY `identifier` (`identifier`) USING HASH;
 
 --
 -- Indizes für die Tabelle `fine_types`
