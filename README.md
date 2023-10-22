@@ -31,6 +31,7 @@ Schön das du dir dieses Projekt anguckst, mein Ziel ist es, für jeden den Perf
 # Versionen
 
 - Alpha 0.1 - Release: 1.09.2023
+- v1.0-beta.1 - Release: 22.10.2023
 
 # Installationsanleitung:
 ## Die Anleitung ist für einen neuen FiveM Server
