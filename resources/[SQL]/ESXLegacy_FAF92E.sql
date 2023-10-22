@@ -211,6 +211,7 @@ INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`) VALUES
 ('metal', 'Metall', 1, 0, 1),
 ('phone', 'red_phone', 1, 0, 1),
 ('rope', 'Seil', 1, 0, 1),
+('jewels', 'Jewels', 1, 0, 1),
 ('sandwich', 'Sandwich', 1, 0, 1),
 ('shovel', 'Schaufel', 1, 0, 1),
 ('wood', 'Holz', 1, 0, 1);
